@@ -5,10 +5,10 @@
 % Date: February, 2024                                                                                                                               
 
 
-There are three folders, namely, Code, Data and Result
-Code folder contains the code files for CSP-MvCDA
-Data folder contains one example data set ALOI (https://elki-project.github.io/datasets/multi_view)
-Result folder contain the result correspoding to ALOI
+There are three folders, namely, Code, Data and Result. 
+Code folder contains the code files for CSP-MvCDA. 
+Data folder contains one example data set ALOI (https://elki-project.github.io/datasets/multi_view). 
+Result folder contain the result correspoding to ALOI. 
 
 To run the code make sure you use the suitable parameters. Here, a list is provided
 alpha_list = [0.0,0.1,0.2,0.3,0.4,0.5,0.6,0.7,0.8,0.9,1.0]
