@@ -5,7 +5,7 @@
 
 
 There are three folders, namely, Code, Data and Result. 
-Code folder contains the code files for CSP-MvCDA. 
+Code folder contains the source code files for CSP-MvCDA. 
 Data folder contains one example data set ALOI (https://elki-project.github.io/datasets/multi_view). 
 Result folder contain the result correspoding to ALOI. 
 
