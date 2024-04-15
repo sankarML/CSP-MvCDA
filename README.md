@@ -10,9 +10,9 @@ Code folder contains the code files for CSP-MvCDA.
 Data folder contains one example data set ALOI (https://elki-project.github.io/datasets/multi_view). 
 Result folder contain the result correspoding to ALOI. 
 
-To run the code make sure, you use the suitable parameters. Here, a list is provided:       
+To run the code make sure, you use the suitable parameters. Here, the lists for alpha and gamma are provided, which have been use to conduct the expeiment of the proposed method:       
 alpha_list = [0.0,0.1,0.2,0.3,0.4,0.5,0.6,0.7,0.8,0.9,1.0],               
-beta_list = [0.0001,0.001,0.01,0.1,0.2,0.3,0.4,0.5,0.6,0.7,0.8,0.9,1.0].               
+gamma_list = [0.0001,0.001,0.01,0.1,0.2,0.3,0.4,0.5,0.6,0.7,0.8,0.9,1.0].               
 for example, alpha = 0.4 and beta = 0.001 is taken for ALOI. 
 The best result is obtained by exhaustively searching the parameter space.
 
