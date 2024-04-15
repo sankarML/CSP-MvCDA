@@ -18,11 +18,11 @@ from gsindex import geometrical_separability_index
 
 n = len(sys.argv)
 if(n<2):
-    print("enter the value of the parameter beta and alpha")
+    print("enter the value of the parameter gamma and alpha")
     print("Total arguments passed:", n)
     os.system("exit")
 
-beta = float(sys.argv[1])
+gamma = float(sys.argv[1])
 alpha = float(sys.argv[2])
 #data_folder=sys.argv[3]
 
@@ -176,7 +176,7 @@ def proposed_method(Data,feature, class_label, n, component):
         cross_cov[i]={}
         for j in range(n):
             if(i==j):
-                cross_cov[i][j] = (-1)*beta*Dx[i]
+                cross_cov[i][j] = (-1)*gamma*Dx[i]
             else:
                 cross_cov[i][j] = np.matmul(np.transpose(Data[i]), Data[j])
     temp_mat={}
@@ -208,10 +208,10 @@ def proposed_method(Data,feature, class_label, n, component):
 
 
 Algo = "CSP-MvCDA"
-para_folder = "beta_"+str(beta) +"alpha_"+str(alpha)
+para_folder = "gamma_"+str(gamma) +"alpha_"+str(alpha)
 print('Dataset:',data_folder)
 print("----------------------------------------------------------------------------")
-print("Patameters: beta--",beta,"alpha--",alpha)
+print("Patameters: gamma--",gamma,"alpha--",alpha)
 print("Training Testing dataset is used")
 print("----------------------------------------------------------------------------")
 accuracy = np.zeros(2)
