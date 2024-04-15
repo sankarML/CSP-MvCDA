@@ -16,7 +16,7 @@ gamma_list = [0.0001, 0.001, 0.01, 0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9, 
 for example, alpha = 0.4 and beta = 0.001 is taken for ALOI. 
 The best result is obtained by exhaustively searching the parameter space.
 
-Example:
+Script to run CSP-MvCDA:
 Move into the code folder and use the following to execute the code CSP-MvCDA.py on the data set ALOI
 
 user_name$: python3 CSP_MvCDA.py 0.001 0.4
