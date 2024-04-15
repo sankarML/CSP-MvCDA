@@ -22,4 +22,4 @@ Move into the code folder and use the following to execute the code CSP-MvCDA.py
 
 user_name$: python3  CSP_MvCDA.py  0.001  0.4
 
-# Make sure the data takes place in the data directory and follow the same format as directed.
+Make sure the data takes place in the data directory and follow the same format as directed.
