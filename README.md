@@ -4,7 +4,7 @@
 % Date: February, 2024                                                                                                                               
 
 
-There are three folders, namely, Code, Data and Result. 
+There are three folders, namely, Code, Data and Result inside the folder CSP-MvCDA-main. 
 The Code folder contains the source code files for CSP-MvCDA. 
 The Data folder contains one example data set, ALOI (https://elki-project.github.io/datasets/multi_view). 
 The Result folder contains the results of the proposed method correspoding to ALOI. 
