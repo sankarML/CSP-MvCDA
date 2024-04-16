@@ -1,7 +1,6 @@
 # CSP-MvCDA
 % Python code for Class-Structure Preserving Multi-View Correlated Discriminant Analysis for Multiblock Data (CSP-MvCDA)          
-% Authors: Sankar Mondal and Pradipta maji                                                                                                 
-% Date: February, 2024                                                                                                                               
+% Authors: Sankar Mondal and Pradipta maji                                                                                                                                                                                                                                
 
 
 There are three folders, namely, Code, Data and Result inside the folder CSP-MvCDA-main. 
